@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>About @KSCR</title>
+	<link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+	<style>
+		body{
+			margin: 0;
+			padding: 0;
+			font-family: "Cabin", sans-serif;
+			font-optical-sizing: auto;
+			font-weight: 300;
+			font-style: normal;
+			font-variation-settings:"wdth" 100;
+			background-color: white;
+			
+		}
+		.navbar {
+            display: flex;
+            position: sticky;
+            align-items: center;
+            justify-content: space-between;
+            top: 0px;
+            background: #344C64;
+            background-blend-mode: darken;
+            background-size: cover;
+            color: white;
+            padding: 10px 20px;
+			border-bottom: 5px solid #57A6A1;
+        }
+
+        .nav-list {
+            display: flex;
+            list-style: none;
+        }
+
+        .nav-list li {
+            margin-right: 20px;
+        }
+
+        .nav-list li:last-child {
+            margin-right: 0;
+        }
+
+        .nav-list li a {
+			text-decoration: none;
+            color: white;
+            font-size: 25px;
+            transition: color 0.3s ease-in-out;
+        }
+
+        .nav-list li a:hover {
+            color: #240750;
+        }
+
+		.about{
+			margin-top: 200px;
+			margin-left: 60px;
+		}
+		.about > img{
+			float: right;
+			margin-right: 90px;
+			margin-bottom: 40px;
+			margin-left: 0px;
+		}
+		.about > h2{
+			font-size: 40px;
+			color: #344C64;
+		}
+		.about > p{
+			font-size: 25px;
+		}
+		.container2 > .skills{
+			margin-left: 60px;
+			margin-right: 60px;
+			text-align: center;
+			align-content: center;
+		}
+		.container2 > .skills > h2{
+			font-size: 40px;
+			color: #344C64;
+		}
+		.nameofskills{
+			display: flex;
+			justify-content: space-between;
+			border: 3px #240750 solid;
+			border-radius: 5%;
+			flex-wrap: wrap;
+		}
+		.nameofskills > *{
+			display: inline-block;
+			
+		}
+		.nameofskills > .skill > img{
+			margin-top: 8px;
+		}
+		.footer{
+			text-align: center;
+			align-items: end;
+			color: lightslategray;
+		}
+	</style>
+</head>
+<body>
+	<div class="project">
+		<div class="container1">
+			<nav class="navbar">
+				<ul class="nav-list">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="projects.html">Projects</a></li>
+					<li><a href="resume.html">Resume</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+			<div class="about">
+				<img src="search-find-magnifying-glass-icon-5693874.png" width="450px" height="450px">
+				<h2>About me!</h2>
+				<p>I'm a FrontEnd Web Developer proficient in HTML, CSS, JavaScript and Data Science enthusiast proficient in MSExcel, Microsoft PowerBI, MYSQL.</p>
+
+				<p>I'm a writer by passion. I've co-authored for more than 30 books till now. I've also authored a book. I have achieved many awards in the field of writing.</p>
+
+				<p>I've created more than 500 designs for various purposes. I've made my own designs using different editing softwares and apps. I worked for three book publishing companies and they've appreciated my work in regards to my unique designs.</p>
+
+			</div>
+		</div>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<div class="container2">
+			<div class="skills">
+				<h2>Skills and Tools</h2>
+				<div class="nameofskills">
+					<div class="skill 1"><img src="./icons/c.svg" alt="C" width="88px" height="88px"><h3>C</h3></div>
+					<div class="skill 2"><img src="./icons/c++.svg" alt="C++" width="88px" height="88px"><h3>C++</h3></div>
+					<div class="skill 3"><img src="./icons/java.svg" alt="Java" width="88px" height="88px"><h3>Java</h3></div>
+					<div class="skill 4"><img src="./icons/html.svg" alt="HTML" width="88px" height="88px"><h3>HTML</h3></div>
+					<div class="skill 5"><img src="./icons/css.svg" alt="CSS" width="88px" height="88px"><h3>CSS</h3></div>
+					<div class="skill 6"><img src="./icons/javascript.svg" alt="Javascript" width="88px" height="88px"><h3>JavaScript</h3></div>
+					<div class="skill 7"><img src="./icons/mysql.svg" alt="MY SQL" width="88px" height="88px"><h3>MY SQL</h3></div>
+					<div class="skill 8"><img src="./icons/figma-icon.svg" alt="Figma" width="88px" height="88px"><h3>Figma</h3></div>
+					<div class="skill 9"><img src="./icons/powerbi.svg" alt="PowerBI" width="88px" height="88px"><h3>PowerBI</h3></div>
+					<div class="skill 10"><img src="./icons/msexcel.svg" alt="MSExcel" width="88px" height="88px"><h3>MSExcel</h3></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<footer class="footer">© 2024 Kolli Sai Charan Reddy, All Rights Reserved</footer>
+</body>
+</html>

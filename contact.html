@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact @KSCR</title>
+	<link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+<style>
+	body{
+			margin: 0;
+			padding: 0;
+			font-family: "Cabin", sans-serif;
+			font-optical-sizing: auto;
+			font-weight: 300;
+			font-style: normal;
+			font-variation-settings:"wdth" 100;
+			background-color: white;
+			
+		}
+		.navbar {
+            display: flex;
+            position: sticky;
+            align-items: center;
+            justify-content: space-between;
+            top: 0px;
+            background: #344C64;
+            background-blend-mode: darken;
+            background-size: cover;
+            color: white;
+            padding: 10px 20px;
+			border-bottom: 5px solid #57A6A1;
+        }
+
+        .nav-list {
+            display: flex;
+            list-style: none;
+        }
+
+        .nav-list li {
+            margin-right: 20px;
+        }
+
+        .nav-list li:last-child {
+            margin-right: 0;
+        }
+
+        .nav-list li a {
+			text-decoration: none;
+            color: white;
+            font-size: 25px;
+            transition: color 0.3s ease-in-out;
+        }
+
+        .nav-list li a:hover {
+            color: #240750;
+        }
+		.whole{
+			display: flex;
+			gap: 300px;
+		}
+		.touch{
+			margin-top: 200px;
+			margin-left: 60px;
+		}
+		.touch > h2{
+			font-size: 40px;
+			color: #344C64;
+		}
+		.touch > input{
+			width: 454px;
+			height: 3rem;
+			font-size: 1rem;
+		}
+		.touch > #message{
+			width: 454px;
+			height: 5rem;
+		}
+		.touch > a{
+			text-decoration: none;
+			background-color: #240750;
+			color: white;
+			padding: 10px;
+		}
+		.details{
+			margin-top: 200px;
+			margin-right: 60px;
+		}
+		.details > h2{
+			font-size: 40px;
+			color: #344C64;
+		}
+		.details > h3{
+			color: grey;
+		}
+		.details > a{
+			text-decoration: none;
+			background-color: #240750;
+			color: white;
+			padding: 10px;
+		}
+		.footer{
+			text-align: center;
+			align-items: end;
+			color: lightslategray;
+		}
+</style>
+</head>
+<body>
+	<div class="project">
+		<div class="container">
+			<nav class="navbar">
+				<ul class="nav-list">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="projects.html">Projects</a></li>
+					<li><a href="resume.html">Resume</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="whole">
+			<div class="touch">
+				<h2>Get in touch with me!</h2>
+				<input type="text" name="name" id="name" placeholder="Your Name">
+				<br/>
+				<input type="email" name="email" id="mail" placeholder="Your Email Address">
+				<br/>
+				<input type="number" name="number" id="number" placeholder="Your phone number">
+				<br/>
+				<input type="text" name="message" id="message" placeholder="Write a Message">
+				<br/>
+				<br/>
+				<a href="#" class="btn btn-lg">SEND MESSAGE</a>
+			</div>
+			<div class="details">
+				<h2>My Contact Details</Details></h2>
+				<h3>EMAIL</h3>
+				<p>kollisaicharanreddy@gmail.com</p>
+				<p>charan.22bcb7109@vitapstudent.ac.in</p>
+				<p>musicandrelax303@gmail.com</p>
+				<br/>
+				<h3>PHONE NUMBER</h3>
+				<p>+91 8977806761</p>
+				<br/>
+				<h3>LINKEDIN</h3>
+				<a href="https://www.linkedin.com/in/kollisaicharanreddy/" class="btn btn-lg">LinkedIn</a>
+				<br/>
+				<h3>GITHUB</h3>
+				<a href="https://github.com/kollisaichranreddy" class="btn btn-lg">Github</a>
+				<br/>
+				<h3>INSTAGRAM</h3>
+				<a href="https://www.instagram.com/kollisaicharanreddy/" class="btn btn-lg">Instagram</a>
+			</div>
+		</div>
+	</div>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<footer class="footer">© 2024 Kolli Sai Charan Reddy, All Rights Reserved</footer>
+</body>
+</html>

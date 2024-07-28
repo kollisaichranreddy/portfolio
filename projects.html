@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Projects @KSCR</title>
+	<link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+	<style>
+		
+		body{
+			margin: 0;
+			padding: 0;
+			font-family: "Cabin", sans-serif;
+			font-optical-sizing: auto;
+			font-weight: 300;
+			font-style: normal;
+			font-variation-settings:"wdth" 100;
+			background-color: white;
+		}
+		.navbar {
+            display: flex;
+            position: sticky;
+            align-items: center;
+            justify-content: space-between;
+            top: 0px;
+            background: #344C64;
+            background-blend-mode: darken;
+            background-size: cover;
+            color: white;
+            padding: 10px 20px;
+			border-bottom: 5px solid #57A6A1;
+        }
+
+        .nav-list {
+            display: flex;
+            list-style: none;
+        }
+
+        .nav-list li {
+            margin-right: 20px;
+        }
+
+        .nav-list li:last-child {
+            margin-right: 0;
+        }
+
+        .nav-list li a {
+			text-decoration: none;
+            color: white;
+            font-size: 25px;
+            transition: color 0.3s ease-in-out;
+        }
+
+        .nav-list li a:hover {
+            color: #240750;
+        }
+		.projects{
+			margin-top: 200px;
+			margin-left: 60px;
+			margin-right: 60px;
+		}
+		.projects > h2{
+			font-size: 40px;
+			color: #344C64;
+		}
+		/* .projects > .box{
+			border: 3px #240750 solid;
+			border-radius: 5%;
+			margin-right: 60px;
+		} */
+		.box > *{
+			margin: 5px;
+		}
+		.box > p{
+			float: right;
+		}
+		.box > img{
+			float: left;
+		}
+		img{
+			border: #240750 solid 3px;
+		}
+		.projects > .box > .project{
+			display: flex;
+			gap: 10px;
+		}
+		.box > h3{
+			text-align: center;
+			font-size: x-large;
+		}
+		.links{
+			display: flex;
+			justify-content: center;
+			gap: 5px;
+			list-style: none;
+		}
+		.links > li{
+			background-color: #57A6A1;
+        	border-radius: 5px;
+        	border: none;
+        	padding: 10px;
+		}
+		.links > li > a{
+			text-decoration: none;
+			color: white;
+		}
+		.footer{
+			text-align: center;
+			align-items: end;
+			color: lightslategray;
+		}
+	</style>
+</head>
+<body>
+	<div class="project">
+		<div class="container">
+			<nav class="navbar">
+				<ul class="nav-list">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="#">Projects</a></li>
+					<li><a href="resume.html">Resume</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+				</nav>
+			<div class="projects">
+				<h2>My Projects</h2>
+				<hr/>
+				<div class="box">
+					<h3>Portfolio Website</h3>
+					<div class="project 1">
+						<img src="./portfolio_website.png" alt="portfolio_website" width="300px" height="200px">
+						
+						<p>Developed Using HTML and CSS, showcasing my skills and projects, etc.</p>
+					</div>
+					<div class="links 1">
+						<li><a href="https://github.com/kollisaichranreddy/portfolio.git" type="button">Github</a></li>
+						<li><a href="http://127.0.0.1:5501/Capstone%20Project%202/index.html" type="button">Demo</a></li>
+					</div>	
+					
+					<hr/>
+					
+					
+					<div class="project 3"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<footer class="footer">© 2024 Kolli Sai Charan Reddy, All Rights Reserved</footer>
+</body>
+</html>
